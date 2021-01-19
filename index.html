@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flyrobe</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h1>Flyrobe - Fashion destination for the ladies of today!</h1> 
-  
-  <p>
-    Looking for western, ethnic, modern styles across the globe? Our <a href="Collections.html">Collections </a> will bring the inside beauty out.
-  </p>
+    <div class="mt:p-16 p-4">
+        <div class="flex">
+                <span class="w-1/2 font-normal uppercase text-2xl font-arial">Flyrobe</span> 
+                <span class="w-1/2 font-thin uppercase text-right">Your own fashion closet for all occassions</span>
+        </div>
 
-  <p>
-    Need to decide looks for the week? Check out our <a = href="Subscriptions.html"> hassle free subscriptions</a> and give that worry to us while you get your beauty sleep. 
-  </p>
-  
+        <div class="flex bg-grey-400">
+    
+            <img class="w-1/2 border-4 rounded" src="https://cdn.rtrcdn.com/assets/imgs/121720_MegaMenu_TrendingNow.jpg">
+            
+            <div class="w-1/2">
+                <p class="m-4">New year. New closet.</p>
+                <p class="m-4"> Need to decide looks for the week? Check out our <a><file:///Users/garimasharma/Documents/hw2/Subscriptions.html"> Weekly subscriptions</a></p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="m-8 text-center">
+    <h1 class="text-3xl font-bold">Sign up to learn more</h1>
+    
+    <form netlify class="mx-auto mt-8 w-64 text-left">
+        <label class="block mt-4 font-bold" for="name"> Your Name?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+        <label class="block mt-4 font-bold" for="Email"> Email?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="Email" name="Email">
+
+        <label class="block mt-4 font-bold" for="favorite-occasion">What is your favorite occasion?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="favorite-occasion" name="favoriteoccasion">
+
+        <button class="block mt-4 text-white bg-green-500 rounded px-4 py-2 text-left">Submit!</button>
+    </form>
+    </div>
+
 </body>
 </html>
